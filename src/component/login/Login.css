@@ -1,0 +1,69 @@
+.login-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color:#e1c5e3;
+  border-radius: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.login-container input,
+.login-container select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.btn-login {
+  width: 100px;
+  padding: 12px;
+  background-color: #681264;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.otp-container {
+  display: flex;
+  width: 50%;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.otp-input {
+  width: 10px;
+  height: 40px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.btn-send-otp{
+background-color: #b16aad;
+color: white;
+border: none;
+}
+
+.btn-send-otp:hover{
+  background-color: #681264;
+}
+
+.btn-login:hover {
+  background-color: #aa8fbd;
+}
+
+.form-error{
+    color: red;
+    font-size: 14px;
+    margin-top: 0px;
+}

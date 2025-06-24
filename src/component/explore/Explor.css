@@ -1,0 +1,48 @@
+body {
+  background-color: #f9f4fb;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.explore-btn {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 2.5rem;
+  margin-top: 30px;
+  color: #54085e;
+}
+.section-title {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-top: 10px;
+  color: #733d8b;
+}
+
+.home-container {
+  gap: 20px;
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.post-card {
+  background-color: #fff0fc;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.post-card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.post-card h3 {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #6d0678;
+}
+.post-card p {
+  font-size: 16px;
+  color: #333;
+}

@@ -1,0 +1,68 @@
+.post-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 24px;
+  background-color:#e1c5e3;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.post-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+.post-container input,
+.post-container textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.file{
+  background-color:white;
+  border: none;
+  border-radius: 6px;
+}
+
+.post-container textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.post-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #681264;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.post-container button:hover {
+  background-color: #815d65;
+}
+
+.error {
+  color: red;
+  margin-top: 4px;
+  font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
+
+
+

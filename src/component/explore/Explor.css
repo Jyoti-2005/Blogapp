@@ -12,6 +12,7 @@ body {
   margin-top: 30px;
   color: #54085e;
 }
+
 .section-title {
   text-align: center;
   font-size: 1.6rem;
@@ -25,6 +26,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .post-card {
   background-color: #fff0fc;
   border-radius: 16px;
@@ -42,7 +44,43 @@ body {
   margin-bottom: 12px;
   color: #6d0678;
 }
+
 .post-card p {
   font-size: 16px;
   color: #333;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  margin-top: 20px;
+}
+
+.search-input-wrapper {
+  position: relative;
+  width: 50%;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: #b494c0;
+  color: #333;
+  font-size: 16px;
+}
+
+.search-input::placeholder {
+  color: #555;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+  font-size: 18px;
 }

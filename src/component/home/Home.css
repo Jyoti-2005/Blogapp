@@ -1,10 +1,14 @@
 .home-header {
-  display: flex;
+  /* display: flex; */
   justify-content: center; 
   align-items: center;
   margin-bottom: 20px;
   gap:40px;
 }
+.home-header h2{
+  text-align: center;
+}
+
 .home-container {
   display: flex;
   flex-wrap: wrap;

@@ -38,7 +38,7 @@ const Home = () => {
   return (
     <div>
       <div className="home-header">
-        <h2 style={{ fontSize: '38px' }}>Created Posts</h2>
+        <h2 style={{ fontSize: '38px'}}>Created Posts</h2>
         <div className="search-container">
           <CiSearch className="search-icon" />
           <input
